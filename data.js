@@ -1,6 +1,3 @@
-"use strict";
-
-// Data
 const data = [
   {
     id: 1022400,
