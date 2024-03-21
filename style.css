@@ -39,7 +39,7 @@ article {
   flex-grow: 2;
 }
 
-.preventFlexWrapProblem {
+.preventFlexWrapping {
   width: 0;
   margin-bottom: 0;
 }
