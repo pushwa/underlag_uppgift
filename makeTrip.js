@@ -1,7 +1,7 @@
 "use strict";
 
 //
-function roundtrip(num) {
+function roundtrip(num, ...c) {
   // Parent
   const main = document.querySelector("main");
   const parent = document.createElement("section");
@@ -10,6 +10,12 @@ function roundtrip(num) {
 
   // Child 1
   const child1 = document.createElement("article");
+
+  // Make class if there is any strings
+  if (Object.keys(c).length > 0) {
+    child1.classList.add(...c);
+  }
+
   parent.appendChild(child1);
 
   // Heading
@@ -73,6 +79,7 @@ function roundtrip(num) {
       price.innerText = `${prices.price3} ,-`;
       break;
   }
+
   child2.appendChild(price);
   parent.appendChild(child2);
 }

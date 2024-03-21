@@ -34,9 +34,9 @@ const data = [
   },
   {
     id: 6572900,
-    heading1: "Roundtrip Oslo - London",
-    heading2: "Roundtrip Berlin - Vienna",
-    heading3: "Roundtrip Stockholm - Rome",
+    heading1: "Oslo - London",
+    heading2: "Berlin - Vienna",
+    heading3: "Stockholm - Rome",
   },
   {
     id: 7683000,

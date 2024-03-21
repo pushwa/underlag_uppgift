@@ -39,6 +39,11 @@ article {
   flex-grow: 2;
 }
 
+.preventFlexWrapProblem {
+  width: 0;
+  margin-bottom: 0;
+}
+
 aside {
   display: flex;
   align-items: center;
